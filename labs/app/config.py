@@ -14,7 +14,7 @@ class DevelopmentConfig(Config):
 class ProductionConfig(Config):
     DEBUG=False
     """postgresql://username:password@localhost:portnumber/database_name """
-    SQLALCHEMY_DATABASE_URI='postgresql://postgres:1111@localhost:5432/books'
+    SQLALCHEMY_DATABASE_URI='postgresql://libraryUser:1111@localhost:5432/books'
 
 
 config_options = {
